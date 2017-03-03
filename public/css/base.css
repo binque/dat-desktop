@@ -70,3 +70,12 @@ button {
 .f7 {
   font-size: .75rem;
 }
+
+/* fading animation to highlight new dats */
+.fade-highlight {
+  animation: fade-highlight 1.25s ease-out;
+}
+@keyframes fade-highlight {
+  0% { background-color: rgba(21,159,132,.2); }
+  100% { background-color: rgba(21,159,132,0); }
+}

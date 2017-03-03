@@ -114,6 +114,7 @@ const table = css`
     .network-peers-0 {
       --polygon-1-color: var(--color-red);
     }
+
   }
 `
 
@@ -212,7 +213,7 @@ function row (dat, send) {
   })
 
   return html`
-    <tr id=${key}>
+    <tr id=${key} class="fade-highlight">
       <td class="cell-1">
         <div class="w2 pa1 center">
           ${hexContent}
